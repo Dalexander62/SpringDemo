@@ -1,0 +1,10 @@
+DROP TABLE IF EXISTS `dog` CASCADE;	
+
+CREATE TABLE `dog` (
+	`id` INTEGER PRIMARY KEY AUTO_INCREMENT,
+	`diet` VARCHAR(255),
+	`weight` INTEGER NOT NULL,
+	`breed` VARCHAR(255),
+	`type`	VARCHAR(255)
+	
+	);
